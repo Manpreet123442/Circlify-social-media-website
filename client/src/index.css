@@ -1,0 +1,17 @@
+.theme-light{
+        --background-color : white;
+        --text-color : #000; 
+        --logo-color : darkblue;
+        --soft-background : #f6f3f3;
+        --soft-textcolor : #555;
+        --border : lightgray;
+}
+
+.theme-dark{
+        --background-color : #222;
+        --text-color : whitesmoke; 
+        --logo-color : white;
+        --soft-background : #333;
+        --soft-textcolor : lightgray;
+        --border : #444;
+}
