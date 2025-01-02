@@ -1,0 +1,172 @@
+.rb-container{
+    min-height: 89.7vh;
+    flex: 4;
+    position: sticky;
+    top: 70px;
+    height: calc(89.7vh - 70px);
+    overflow: scroll;
+    background-color: var(--soft-background);
+    color: var(--text-color);
+    min-width: 380px;
+    
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    .rb-container{
+        padding: 20px;
+
+        .rb-item{
+            box-shadow: 0px 0px 8px 1px rgb(0,0,0,0.9);
+            padding: 20px;
+            background-color: var(--background-color);
+
+            span{
+                color: gray;
+            }
+
+            .rb-user{
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 20px 0px;
+
+                .rb-userInfo{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                    img{
+                        border-radius: 50%;
+                    }
+
+                    p{
+                        color: var(--soft-textcolor);
+                    }
+
+
+                    span{
+                        font-weight: 500;
+                        color: var(--text-color);
+                    }
+
+                }
+            }
+
+            .rb-buttons{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                button {
+                    color: white;
+                    border: none;
+                    padding: 5px;
+                    cursor: pointer;
+
+                    &:first-child{
+                        background-color: #5271ff;
+                    }
+
+                    &:last-child{
+                        background-color: #f0544f;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.rb-container{
+    min-height: 89.7vh;
+    flex: 3;
+    position: sticky;
+    top: 70px;
+    height: calc(89.7vh - 70px);
+    overflow: scroll;
+    background-color: var(--soft-background);
+    color: var(--text-color);
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    .rb-container{
+        padding: 20px;
+
+        .rb-item2{
+            box-shadow: 0px 0px 8px 1px rgb(0,0,0,0.9);
+            padding: 20px;
+            margin-top: 20px;
+            background-color: var(--background-color);
+
+            span{
+                color: gray;
+            }
+
+            .rb-user{
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 20px 0px;
+
+                .rb-userInfo{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                position: relative;
+
+                    img{
+                        border-radius: 50%;
+                    }
+
+                    p{
+                        color: var(--soft-textcolor);
+                    }
+
+                    .online{
+                        height: 10px;
+                        width: 10px;
+                        background-color: limegreen;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 0px;
+                        left: 20px;
+                    }
+
+                    span{
+                        font-weight: 500;
+                        color: var(--text-color);
+                    }
+
+                }
+            }
+
+            .rb-buttons{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                button {
+                    color: white;
+                    border: none;
+                    padding: 5px;
+                    cursor: pointer;
+
+                    &:first-child{
+                        background-color: #5271ff;
+                    }
+
+                    &:last-child{
+                        background-color: #f0544f;
+                    }
+                }
+            }
+
+        }
+    }
+}
